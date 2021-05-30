@@ -20,6 +20,7 @@ import com.mh.course.repositories.OrderItemRepository;
 import com.mh.course.repositories.OrderRepository;
 import com.mh.course.repositories.ProductRepository;
 import com.mh.course.repositories.UserRepository;
+import com.mh.course.resources.UserResource;
 
 @Configuration
 @Profile("test")
@@ -85,6 +86,8 @@ public class TestConfig implements CommandLineRunner {
 		orderRepository.save(o1);
 		
 
+	
+		
 	}
 
 }
